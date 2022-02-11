@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(148, 145, 145);
+    width: 14vw;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+.sidebar nav {
+    padding: 10px;
+}
+.sidebar nav li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.main{
+    /* background: yellow; */
+    width: 90vw;
+    
+}
+.container {
+    display: flex;
+}
+.infoContainer{
+    
+    width: 85vw;
+    height: 58vh;
+    margin: 73px auto;
+    display: flex;
+    font-size: 50px;
+    justify-content: right;
+}
+
+    
+
+
+.devinfo{
+    /* display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+    font-size: 10px;
+    flex-direction: column;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace; */
+    display: flex;
+    justify-content: center;
+    margin-right: 31rem;
+    font-size: 19px;
+    flex-direction: column;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    
+}
+
+.devPic img {
+    
+    height: 58vh;
+    justify-content: right;
+    
+}
+
+.hello {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.name {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.about {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.moreabout {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+}
+
+.buttons {
+    margin-top: 11px;
+}
+
+.buttons button {
+    /* font-size: 50px;;
+    margin-top: 34px;
+    padding: 34px; */
+    /* font-size: 48px;
+    margin-top: 51px;
+    padding: 25px;
+    border-radius: ; */
+    /* font-size: 13px;
+    margin-top: 15px;
+    padding: 2px 15px;
+    border-radius: 19px;
+    color: white;
+    background-color: dimgrey;
+    font-weight: bold;
+    margin: 0 40px;
+    cursor: pointer; */
+/* 
+    font-size: 19px;
+    margin-top: 16px;
+    padding: 9px 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: dimgrey;
+    font-weight: bold;
+    margin: 4px 30px;
+    cursor: pointer; */
+    font-size: 19px;
+    margin-top: 16px;
+    padding: 8px 12px;
+    border-radius: 28px;
+    color: white;
+    background-color: dimgrey;
+    font-weight: bold;
+    margin: 1px 9px;
+    cursor: pointer;
+
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: dimgrey;
+
+}
+
+
+
