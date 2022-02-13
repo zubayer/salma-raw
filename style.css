@@ -110,6 +110,7 @@
 
 .buttons {
     margin-top: 11px;
+    /* transition: 1.5s ease all; */
 }
 
 .buttons button {
@@ -149,12 +150,14 @@
     margin: 1px 9px;
     cursor: pointer;
     margin-left: -3px;
+    /* transition: 1.5s ease all; */
 
 }
 
 .buttons button:hover {
     background-color: white;
     color: dimgrey;
+    transition: 1.5s ease all;
 
 }
 
