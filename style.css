@@ -52,7 +52,42 @@
     justify-content: right;
 }
 
-    
+@media screen and (max-width:242px ) {
+    infoContainer {
+        width: 187vw;
+        height: 385px;
+        margin: 40px auto;
+        display: flex;
+        font-size: 31px;
+        justify-content: center;
+    }
+
+}
+/* @media screen and (max-width:1245px ) {
+
+    .infoContainer {
+        width: 203vw;
+        height: 58vh;
+        margin: 33px auto;
+        display: flex;
+        font-size: 50px;
+        justify-content: right;
+    }
+}
+
+
+
+@media screen and (max-width:360px ) {
+
+.infoContainer {
+    width: 173vw;
+    height: 58vh;
+    margin: 33px auto;
+    display: flex;
+    font-size: 50px;
+    justify-content: right;
+}
+} */
 
 
 .devinfo{
@@ -70,15 +105,51 @@
     flex-direction: column;
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Source Code Pro', monospace;
+    /* justify-content: space-evenly;
+    align-items: left;
+    box-shadow: 22px 1px 34px -4px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 22px 1px 34px -4px rgba(0,0,0,0.7);
+    -moz-box-shadow: 22px 1px 34px -4px rgba(0,0,0,0.7); */
     
 }
 
+/* @media screen and (max-width:1160px){
+    .devinfo{
+        margin-right: 13rem;
+    }
+} 
+
+@media screen and (max-width:860px){
+    .devinfo{
+        margin-right: 4rem;
+    }
+} 
+@media screen and (max-width:664px){
+    .devinfo{
+        margin-right: 4rem;
+    }
+} */
+
+@media screen and (max-width:1280px){
+    *{
+        background-color: rgb(238, 149, 149);
+    }
+    .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+    
+} 
+
+
+
 .devPic img {
-    
-    height: 58vh;
-    justify-content: right;
-    
+        margin-top: 80px;
+        margin-right: 200px;
+        height: 39vh;
+        justify-content: center;
 }
+
 
 .hello {
     font-size: 40px;
@@ -154,6 +225,7 @@
 
 }
 
+
 .buttons button:hover {
     background-color: white;
     color: dimgrey;
@@ -163,3 +235,54 @@
 
 
 
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 5px;
+
+
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    padding: 10px 10px;
+
+}
+
+form {
+
+    padding: 50px;
+}
+
+
+.contactform form div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contactform form input{
+    border-radius: 5em;
+    width: 14vw;
+    margin: 10px 0;
+}
+
+
+
+
+
+#tickcheck {
+    flex-direction: row;
+    margin-left: -152px;
+}
+
+#boxline {
+    margin-left: -140px;
+    padding: 6.5px;
+    
+}
+
+.btn btn-primary{
+    
+}
