@@ -3,20 +3,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Roboto+Serif&display=swap')
 
+
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
+.cross {
+    margin-left: 128px;
+}
+
+.sidebarGo{
+    transform: translate(-440px, 0px);
+    position: absolute;
+}
+
 .sidebar {
+    position: absolute;
     background-color: rgb(148, 145, 145);
-    width: 14vw;
+    width: 190px;
     height: 100vh;
     font-family: 'Fira Sans', sans-serif;
+    transition: transform 0.35s ease-in; 
     
 }
 .sidebar nav {
     padding: 10px;
+
 }
 .sidebar nav li {
     list-style: none;
@@ -32,37 +45,24 @@
 }
 
 
-
-
-
-
 .main{
     /* background: yellow; */
-    width: 90vw;
+    width:fit-content;
     
 }
 .container {
     display: flex;
 }
-.infoContainer{
-    
-    width: 85vw;
-    height: 58vh;
-    margin: 33px auto;
+.infoContainer {
+    width: 72vw;
+    height: 39vh;
+    margin: 46px auto;
     display: flex;
     font-size: 50px;
-    justify-content: right;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-@media screen and (max-width:242px ) {
-    infoContainer {
-        width: 187vw;
-        height: 385px;
-        margin: 40px auto;
-        display: flex;
-        font-size: 31px;
-        justify-content: center;
-    }
 
 }
 /* @media screen and (max-width:1245px ) {
@@ -102,7 +102,7 @@
     font-family: 'Source Code Pro', monospace; */
     display: flex;
     justify-content: center;
-    margin-right: 31rem;
+    margin-right: 3rem;
     font-size: 19px;
     flex-direction: column;
     font-family: 'Fira Sans', sans-serif;
@@ -132,25 +132,19 @@
     }
 } */
 
-@media screen and (max-width:1280px){
-    *{
-        background-color: rgb(238, 149, 149);
-    }
-    .sidebar{
-        transform: translate(-443px, 0px);
-        position: absolute;
-    }
-    
-} 
+
 
 
 
 .devPic img {
-        margin-top: 80px;
-        margin-right: 200px;
-        height: 39vh;
-        justify-content: center;
+    margin-top: 52px;
+    margin-right: 112px;
+    height: 44vh;
+    justify-content: center;
+    margin-left: 68px;
 }
+
+
 
 
 .hello {
@@ -320,14 +314,14 @@ form {
 
 
 .blogitem {
-    margin: 20px;
+    margin: 1.5em;
     padding: 10px;
     font-family: 'Gideon Roman', cursive;
     font-family: 'Roboto Serif', sans-serif;
 
 }
 div .blogitem p{
-    margin-top: 10px;;
+    margin-top: 1em;
     padding: 5px;
     margin-left: -5px;
     font-family: 'Gideon Roman', cursive;
@@ -337,3 +331,78 @@ div .blogitem p{
 .blogcontainer h1{
     font-family: 'Fira Sans', sans-serif;
 }
+
+div .blogitem h1{
+    margin: 1em;
+}
+
+
+.skillcontainer h1 {
+    font-family: 'Roboto Serif', sans-serif;
+    padding: 10px;
+    margin: 1em;
+}
+
+
+.skillitems {
+    font-family: 'Roboto Serif', sans-serif;
+    padding: .50em;
+    font-weight: bold;
+    margin: 1.5em;
+    display: flex;
+    flex-direction: row;
+}
+.skill {
+    
+    border: .15em solid black;
+    margin-left: .75em;
+    height: 10px;
+    width: 500px;;
+    background-color: blue;
+}
+
+.hundered {
+    
+    width: 365px;
+}
+.ninety {
+    width: 350px;
+}
+.eightyf {
+    width: 310px;
+}
+.eighty {
+    width : 290px;
+}
+.seventyf {
+    width: 290px;
+}
+
+.hamburger {
+    position:absolute;
+    cursor: pointer;
+    left: 10px;
+    top: 10px;
+}
+
+/* @media screen and (max-width:1441px){
+    *{
+        background-color: rgb(238, 149, 149);
+    }
+    .sidebarGo{
+        transform: translate(-440px, 0px);
+        position: absolute;
+    }
+    
+} 
+
+@media screen and (max-width:242px ) {
+    infoContainer {
+        width: 187vw;
+        height: 385px;
+        margin: 40px auto;
+        display: flex;
+        font-size: 31px;
+        justify-content: center;
+    }
+ */
